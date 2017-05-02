@@ -13,9 +13,15 @@ class App extends Component {
         <p className="App-intro">
           This is where we have fun and change stuff and make cool computer things happen.
         </p>
+        <div><Jtest name="Sara" /></div>
       </div>
+
     );
   }
 }
 
-export default App;
+function Jtest (props) {
+  return <h1>Hello, {props.name}</h1>;
+}
+//export default App;
+export {App, Jtest}
