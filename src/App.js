@@ -13,7 +13,7 @@ class App extends Component {
         <p className="App-intro">
           This is where we have fun and change stuff and make cool computer things happen.
         </p>
-        <div><Jtest name="Sara" /></div>
+        <div><Jtest name="Sara" job="developer" /></div>
       </div>
 
     );
@@ -21,7 +21,7 @@ class App extends Component {
 }
 
 function Jtest (props) {
-  return <h1>Hello, {props.name}</h1>;
+  return <h1>Hello, {props.name} Do you like being a {props.job}</h1>;
 }
 //export default App;
 export {App, Jtest}
