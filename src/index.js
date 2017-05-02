@@ -13,7 +13,7 @@ ReactDOM.render(
     // document.getElementById('root')
 );
 
-ReactDOM.render(
-  <Jtest />,
-  document.getElementById('root')
-);
+// ReactDOM.render(
+//   <Jtest />,
+//   document.getElementById('root')
+// );
